@@ -1,0 +1,41 @@
+.job-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.main-dts {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+    font-size: 16px;
+
+}
+
+.job-details-container p:nth-child(2) {
+    font-weight: bold;
+    color: #4285f4;
+
+}
+
+
+.job-details-container p:nth-child(3) {
+    font-style: italic;
+}
