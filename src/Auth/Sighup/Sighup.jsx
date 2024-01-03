@@ -7,6 +7,9 @@ import { FaGoogle, FaGithub } from 'react-icons/fa';
 import { signInWithPopup } from 'firebase/auth';
 import { googleProvider } from '../../Firebase/config';
 import { useState } from 'react';
+
+
+
 function SignUpForm() {
     const [createUserWithEmailAndPassword, user, loading, error] =
         useCreateUserWithEmailAndPassword(auth);
@@ -64,13 +67,10 @@ function SignUpForm() {
             );
             toast.success('User created successfully!');
         } catch (error) {
-            // Handle error
             console.error('Error creating user:', error.message);
 
-            // Log the specific error code for better debugging
             console.error('Error code:', error.code);
 
-            // Display an appropriate error message based on the error code
             switch (error.code) {
                 case 'auth/invalid-email':
                     toast.error('Invalid email address');

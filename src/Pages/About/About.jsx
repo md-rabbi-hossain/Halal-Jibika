@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section className="about-us">
       <div className="about">
-        <img src="img/girl.jpg" className="pic" alt="Girl" />
+        <img src={"https://t3.ftcdn.net/jpg/04/51/83/22/240_F_451832202_e1QKPBz6HJm25BlNZwi0OT1404WGMs1i.jpg"} className="pic" alt="job" />
         <div className="text">
           <h2>Welcome to our Halal job portal</h2>
           <h3>Our Distinctive Offering</h3>
