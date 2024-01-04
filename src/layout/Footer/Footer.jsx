@@ -6,7 +6,7 @@ import { FaDribbble } from "react-icons/fa";
 function Footer() {
     return (
         <div className="footer">
-            <p>&copy; 2023 Transaction tracker</p>
+            <p>&copy; 2024 Halal jibika</p>
             <ul>
                 <li><FaFacebookSquare /></li>
                 <li><FaDribbble /></li>
